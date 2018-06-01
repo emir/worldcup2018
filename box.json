@@ -1,0 +1,13 @@
+{
+  "files": [
+    "app.php",
+    "README.md"
+  ],
+  "directories": [
+    "src",
+    "vendor"
+  ],
+  "stub": true,
+  "main": "app.php",
+  "output": "dist/worldcup18.phar"
+}
