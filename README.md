@@ -29,7 +29,7 @@ Usage
 Default argument is today. Also **current**, **finished** and **all** are supported arguments.
 With argument **all** you can specified team you want to see schedule/results. For example:
 
-`php app.php fixtures all -t Turkey`
+`php app.php fixtures all -t Germany`
 
 You can always add **worldcup18** alias on your .bashrc or .zshrc (That's how I use)
 
