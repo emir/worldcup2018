@@ -4,7 +4,7 @@
 require __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use Euro2016\Command\FixturesCommand;
+use WorldCup2018\Command\FixturesCommand;
 
 $application = new Application();
 $client = new GuzzleHttp\Client();

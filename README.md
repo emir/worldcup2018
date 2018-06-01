@@ -1,7 +1,7 @@
-Euro2016
+World Cup 2018
 =================
 
-UEFA EURO 2016 results for hackers.
+2018 FIFA World Cup results for hackers.
 
 [http://api.football-data.org/index](http://api.football-data.org/index)
 
@@ -31,13 +31,13 @@ With argument **all** you can specified team you want to see schedule/results. F
 
 `php app.php fixtures all -t Turkey`
 
-You can always add **euro2016** alias on your .bashrc or .zshrc (That's how I use)
+You can always add **worldcup18** alias on your .bashrc or .zshrc (That's how I use)
 
-`alias euro2016='php projects/euro2016/app.php fixtures'`
+`alias worldcup18='php projects/worldcup2018/app.php fixtures'`
 
 and use like this:
 
-`euro2016 current`
+`worldcup18 current`
 
 License
 -------------

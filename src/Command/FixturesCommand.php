@@ -1,6 +1,6 @@
 <?php
 
-namespace Euro2016\Command;
+namespace WorldCup2018\Command;
 
 use DateTime;
 use DateTimeZone;
@@ -52,13 +52,13 @@ class FixturesCommand extends Command
     protected function fetch()
     {
         try{
-            $request = $this->client->get('http://api.football-data.org/v1/soccerseasons/424/fixtures', [
+            $request = $this->client->get('http://api.football-data.org/v1/competitions/467/fixtures', [
                 'headers' => [
                     'X-AUTH-TOKEN' => '53e6bee2dade46858d67b06f85972363'
                 ]
             ]);
         } catch (\Exception $e) {
-            return die("Looks like something wrong with API. You can always open issue here: https://github.com/emir/euro2016/issues\n");
+            return die("Looks like something wrong with API. You can always open issue here: https://github.com/emir/worldcup2018/issues\n");
         }
 
         return json_decode($request->getBody()->getContents());
